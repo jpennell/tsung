@@ -339,6 +339,7 @@ save_binary_post("application/xaml+xml") -> true;
 save_binary_post("application/x-ms-xbap") -> true;
 save_binary_post("application/soap+msbin1") -> true;
 save_binary_post("application/msbin1") -> true;
+save_binary_post("application/x-protobuf") -> true;
 save_binary_post(_) -> false.
 
 %%--------------------------------------------------------------------
